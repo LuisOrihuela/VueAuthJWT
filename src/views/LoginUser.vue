@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="../assets/icon.png" class="icon" alt="">
     <form @submit.prevent="login">
       <label for="email">Email:</label>
       <input v-model="email" type="email" name="email" value required/>
@@ -44,5 +45,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.icon{
+  position: relative;
+  top: -20px;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  }
 </style>

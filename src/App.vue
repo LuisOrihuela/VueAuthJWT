@@ -19,9 +19,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
   padding: 0em;
   margin: 0em;
+  background-color: #080E33;
+  color: white;
 }
 
 a:visited {
@@ -37,7 +39,7 @@ button {
   height: 2em;
   margin: 0.5em;
   border-radius: 5px;
-  background: linear-gradient(to right, #16c0b0, #84cf6a);
+  background: linear-gradient(to right, #c01c16, #ec994c);
   font-size: 1em;
   color: white;
   border: none;

@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link>
+    <router-link to="/">Facturatron</router-link>
     <router-link v-if="loggedIn" to="/dashboard">Dashboard</router-link>
     <router-link v-if="!loggedIn" to="/login" class="button">Entrar</router-link>
     <button v-else type="button" class="logoutButton" @click="logout">Salir</button>    
@@ -27,8 +27,9 @@ export default {
   align-items: center;
   min-height: 50px;
   padding: 0.2em 1em;
-  background: linear-gradient(to right, #16c0b0, #6a6ccf);
+  /* background: linear-gradient(to right, #c01c16, #ec994c); */
 }
+
 
 .nav-welcome {
   margin-left: auto;
@@ -38,7 +39,7 @@ export default {
 
 a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
   margin: auto 0.8em auto 0.4em;
   text-decoration: none;
   border-top: 2px solid transparent;
